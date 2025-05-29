@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Assertions
 import kotlin.test.Test
 
 class SingleDieTest {
-
     @Test
     fun `should have positive min and max values`() {
         Assertions.assertThrows(IllegalArgumentException::class.java) {

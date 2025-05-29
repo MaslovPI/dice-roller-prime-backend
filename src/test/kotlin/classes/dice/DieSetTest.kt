@@ -9,7 +9,7 @@ class DieSetTest {
         val set1 = SingleDieSet(DieType.D4, 10)
         val set2 = SingleDieSet(DieType.D6, 5)
 
-        val dieSet = DieSet()
+        var dieSet = DieSet()
         dieSet.add(set1)
         dieSet.add(set2)
 
